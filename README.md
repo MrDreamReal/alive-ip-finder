@@ -12,15 +12,15 @@ ex ::
 ...
 ...
 
-# Basic usage
-python3 Adv-redteam-ip-scanner.py -f ip-range.txt -o alive-ips.txt
+ Basic usage
+$python3 Adv-redteam-ip-scanner.py -f ip-range.txt -o alive-ips.txt
 
-# With more threads and verbose output
-python3 Adv-redteam-ip-scanner.py -f ip-range.txt -o alive-ips.txt -t 100 -v
+ With more threads and verbose output
+$python3 Adv-redteam-ip-scanner.py -f ip-range.txt -o alive-ips.txt -t 100 -v
 
-# Faster scan with less evasion
-python3 Adv-redteam-ip-scanner.py -f ip-range.txt -o alive-ips.txt --no-jitter -x 1
+ Faster scan with less evasion
+$python3 Adv-redteam-ip-scanner.py -f ip-range.txt -o alive-ips.txt --no-jitter -x 1
 
-# Conservative scan with maximum evasion
-python3 Adv-redteam-ip-scanner.py -f ip-range.txt -o alive-ips.txt -t 20 -x 3 -v
+Conservative scan with maximum evasion
+$python3 Adv-redteam-ip-scanner.py -f ip-range.txt -o alive-ips.txt -t 20 -x 3 -v
 
